@@ -10,9 +10,6 @@ from utils import APIException, generate_sitemap
 from admin import setup_admin
 from models import db, Person, Planet, Users, FavoritePeople, FavoritePlanets
 
-#add this import for commands
-from commands import setup_commands
-
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
